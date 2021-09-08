@@ -1,0 +1,8 @@
+/*Study difference between ID and Class*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;800&display=swap');
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+h1 {
+    color: salmon;
+}
