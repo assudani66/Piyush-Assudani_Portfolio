@@ -1,10 +1,9 @@
-/*Study difference between ID and Class*/
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;800&display=swap');
+:root{
+    --primarycolor : #EC4899;
+}
 body{
     font-family: 'Open Sans', sans-serif;
-}
-h1 {
-    color: salmon;
 }
 
 .container {
@@ -17,3 +16,24 @@ h1 {
     padding: 0px;
     text-align: center;
 }
+
+/*Links*/
+.link{
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    
+}
+.link-Primary{
+    background-color: var(--primarycolor);
+    border-radius: 0.5rem;
+    color: white;
+
+
+}
+.link-secondary{
+    color: var(--primarycolor);
+    border-radius: 0.5rem;
+    border: 1px var(--primarycolor) solid;
+}
+
+
