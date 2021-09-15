@@ -2,6 +2,9 @@
 :root{
     --primarycolor : #EC4899;
 }
+hr{
+    padding: 0.5rem 0rem;
+}
 .colored-text{
     color: var(--primarycolor);
 }
@@ -61,4 +64,23 @@ body{
 .nav-brand-name{
     padding: 1rem;
     font-weight: bold;
+}
+.hero-img{
+    max-width: 300px;
+    margin: auto;
+    display: block;
+}
+.normal-section h2{
+    text-align: center;
+}
+.off-white-section {
+    background-color:lightgrey;
+    padding: 1rem;
+}
+.footer{
+    background-color: var(--primarycolor);
+    color:white;
+    text-align:center;
+    padding: 1rem;
+    border-top-left-radius: 1rem;
 }
