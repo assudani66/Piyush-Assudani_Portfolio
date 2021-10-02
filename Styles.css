@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;800&display=swap');
 :root{
-    --primarycolor : #EC4899;
+    --primarycolor : #4D73E3;
 }
+
 hr{
     padding: 0.5rem 0rem;
 }
@@ -66,9 +67,10 @@ body{
     font-weight: bold;
 }
 .hero-img{
-    max-width: 300px;
+    max-width: 500px;
     margin: auto;
     display: block;
+    border-radius: 1rem;
 }
 .normal-section h2{
     text-align: center;
