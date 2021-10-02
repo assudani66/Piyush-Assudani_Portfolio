@@ -1,114 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Piyush Assudani</title>
-    <link rel="stylesheet" href="Styles.css">
-</head>
-<body>
-    <h1> <div>Piyush's</div>  Components Library</h1>
-    <p>Hey  I am <strong>Piyush Assudani</strong>  and this my component library which I am making during my first introduction to HTML and CSS in <strong>neog camp</strong> </p>
-    <hr>
-    <h1>@typography</h1>
-    <h1>The Biggest heading h1</h1>
-    <h2>The second biggest heading h2</h2>
-    <p>This is normal text.Long runnning text would look like on your website.this will auto fold on the width </p>
-    <small>This is realtivily smaller text</small>
-
-    <hr>
-
-    <h2 >@container</h2>
-    <h3>@fluid container</h3>
-    <div class="container" >This is go in to be center. It will go full width of page width of page. With some margin.</div>
-    <h3>@center container</h3>
-    <div class = "container center-container">This is going to be a center container</div>
-    <hr>
-    <h2>Links</h2>
-    <a class="link link-Primary" href="">Primary Link</a>
-    <a class="link link-secondary" href="">Secondary Link</a>
-
-    <hr>
-    
-    <h2>@lists</h2>
-    <h3>Unordered list</h3>
-    <p>We don't wannt to show bullets in the unorderd lists .We'll remove that with CSS</p>
-    <ul class = "lists-no-bullets">
-        <li>item one</li>
-        <li>item two</li>
-        <li>item three</li>
-    </ul>
-    <h3>inline lists</h3>
-    <p>instead of going in a new row ,we will create a list which will take columns.</p>
-    <ul class="lists-no-bullets">
-        <li class="lists-inline">
-            item one
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home | Piyush Assudani</title>
+    <link href="styles.css" rel="stylesheet" />
+  </head>
+  <body>
+    <nav class="navigation container">
+      <div class="nav-brand"><a href="/">adarshbalika</a></div>
+      <ul class="list-non-bullet nav-pills">
+        <li class="list-item-inline">
+          <a class="link link-active" href="/">home</a>
         </li>
-        <li class="lists-inline">
-            item two
+        <li class="list-item-inline">
+          <a class="link" href="/projects.html">projects</a>
         </li>
-        <li class="lists-inline">
-            item three
+        <li class="list-item-inline">
+          <a class="link" href="/blogs.html">blogs</a>
         </li>
-    </ul>
-    <h3>reverse orderd lists</h3>
-    <p>Counting of will go reverse for this list</p>
-    <ol reversed>
-        <li>something</li>
-        <li>something else</li>
-        <li>something elser</li>
-    </ol>
-
-    <hr>
-    <!-- Navigation -->
-    <h3>@nav</h3>
-            <p>Navigation is used on the top of the page and used to get to different pages</p>
-    <nav class="navigation">
-        <div class="nav-brand-name">brand name</div>
-        <ul class ="lists-no-bullets nav-pills">
-            <li  class ="lists-inline"><a class="link " href="">Home</a></li>
-            <li class ="lists-inline"><a class="link"href="">Products</a></li>
-            <li class ="lists-inline"><a class="link" href="">About</a></li>
-        </ul>
+      </ul>
     </nav>
-    
-    <hr>
 
-    <h2>@header</h2>
-    <header >
-        <img class = "hero-img"src="https://cdn.dribbble.com/users/15687/screenshots/11402762/media/b8eaf17dcdc71b1da589c3b737185da0.png?compress=1&resize=1600x1200" alt="">
+    <header class="hero">
+      <img class="hero-img" src="images/hero.svg" />
+      <h1 class="hero-heading">
+        Piyush Assudani the <span class="heading-inverted"> web developer</span>
+      </h1>
     </header>
-    
-    <hr>
 
-    <h3>@section</h3>
-    <p>A section is used to separate parts of pages. In marketing websites you would have seen a header followed by sections of features, team, pricing, contact info etc.</p>
-    <h3>@normal section</h3>
-    <section class="normal-section">
-       <h2 class="normal-section">heading inside section</h2>
-       <p>Text defining thi section and many more things</p>
-       <a class="link link-Primary" href="">Primary button</a>
-       <hr>
+    <section class="section ow">
+      <div class="container container-center">
+        <h1>technologies</h1>
+        <p>
+          I'm familiar with HTML5, CSS3, Git, JavaScript, NodeJS, ReactJS, and
+          Web Hosting
+        </p>
+      </div>
     </section>
-    <h3>@an off white section</h3>
-    <section class="off-white-section normal-section">
-       <h2 class="normal-section">inside off white section</h2>
-       <p>Text defining thi section and many more things</p>
-       <a class="link link-Primary"  href="">Primary button</a>
-    </section >
-    <hr>
-    <h3>@footer</h3>
-    <footer class="footer">
-        <header class="normal-section">
-            <h3 class="normal-section">header inside footer</h3>
-        </header>
-        <ul class="lists-no-bullets">
-            <li class="lists-inline">Socialone</li class="lists-inline">
-            <li class="lists-inline">Socialtwo</li class="lists-inline">
-            <li class="lists-inline">Socialthree</li class="lists-inline">
-        </ul>
-    </footer>
 
-</body>
+    <section class="section">
+      <div class="container container-center">
+        <h1>projects</h1>
+        <p>
+          I like to showcase my work and thus, you can see my projects hosted
+          online
+        </p>
+        <a class="link link-primary" href="/projects.html">See Projects</a>
+      </div>
+    </section>
+
+    <section class="section ow">
+      <div class="container container-center">
+        <h1>blogs</h1>
+        <p>
+          I am also working on some technical and non techincal blogs. I like to
+          document my journey of learning.
+        </p>
+        <a class="link link-secondary" href="/blogs.html">Read Blogs</a>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="footer-header">social media presence</div>
+      <ul class="social-links list-non-bullet">
+        <li class="list-item-inline">
+          <a class="link" href="https://github.com/assudani66"> github </a>
+        </li>
+        <li class="list-item-inline">
+          <a class="link" href="https://twitter.com/phantomcat3d"> twitter </a>
+        </li>
+        <li class="list-item-inline">
+          <a class="link" href="https://www.linkedin.com/in/piyush-a-704b21134/">
+            linkedin
+          </a>
+        </li>
+      </ul>
+    </footer>
+  </body>
 </html>
