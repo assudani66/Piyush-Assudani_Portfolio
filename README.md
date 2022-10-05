@@ -15,3 +15,6 @@ My PROJECTS
 My SOCIAL MEDIA LINKS
 
 ![image](https://user-images.githubusercontent.com/63794264/193866868-7a4ef475-f037-402e-9c9c-34da49bee50c.png)
+
+Used HTML CSS to make this site
+
